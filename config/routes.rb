@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'calls/forward'
+  post 'calls/forward'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
